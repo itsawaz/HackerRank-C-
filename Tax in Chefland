@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	
+	int r, x[r],res;
+
+	cin>>r;
+	for(int i=0;i<r;i++)
+	    {
+	       cin>>x[i];
+	    }
+	
+	
+	for(int i=0;i<r;i++)
+	    {
+	       if(x[i]>100)
+	      { 
+	         res=x[i]-10;
+	         cout<<res<<endl;
+	          
+	      }
+	       else
+	         cout<<x[i]<<endl;
+	    
+	          
+	      }
+	
+	
+	return 0;
+}
